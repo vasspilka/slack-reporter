@@ -7,7 +7,7 @@ requires [slack-notifier](https://github.com/stevenosloan/slack-notifier)
 A slack channel with webhooks intergration and your api key in the `SLACK_WEBHOOK_URI` environmental variable.
 
 Finnally this is your gemfile.
-`gem 'slack-reporter'`
+`gem 'slack_reporter'`
 
 ### Usage
 
