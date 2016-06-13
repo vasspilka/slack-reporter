@@ -1,5 +1,3 @@
  class SlackReporter
-   def version
-     '0.1'.freeze
-   end
+   VERSION = '0.1.0'.freeze
  end
