@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.email         = 'vasspilka@gmail.com'
   s.files         = %w(lib/slack-reporter.rb lib/version.rb README.md CHANGELOG.md)
   s.require_paths = ['lib']
-  s.homepage      = 'http://rubygems.org/gems/slack-reporter'
+  s.homepage      = 'https://github.com/vasspilka/slack-reporter'
   s.license       = 'MIT'
   s.required_ruby_version = '>= 2.2.0'
 
