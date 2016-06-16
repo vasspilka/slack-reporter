@@ -50,6 +50,7 @@ To report regardless of environment call `#call` with `true` in arguments e.g.
 
 
 You can create as many custom reporters as you want and the use them by calling `#call` and giving them a block of text. e.g.
+
 ```
 @reporter1 = SlackReporter.new("Nelson said")
 @reporter1.call { 'Hahaa' }
