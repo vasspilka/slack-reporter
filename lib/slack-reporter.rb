@@ -28,7 +28,7 @@ class SlackReporter
   private
 
   def create_name(item)
-    item = item.class unless item.class == Class || String
+    item = item.class unless item.class == NilClass || String || Class
     string = (item || DEFAULTS[:name]).to_s.downcase
     return string if string.split.count > 1
     string + DEFAULTS[:followup]
