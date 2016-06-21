@@ -41,7 +41,7 @@ class SlackReporter
   def environment
     if defined?(Rails)
       Rails.env
-    elseif defined?(Hanami)
+    elsif defined?(Hanami)
       Hanami.env
     else
       'production'
