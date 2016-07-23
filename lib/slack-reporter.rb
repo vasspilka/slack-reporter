@@ -2,7 +2,7 @@ require 'slack-notifier'
 require_relative 'version'
 
 class SlackReporter
-  attr_accessor :name, :channel
+  attr_reader :name, :channel
   DEFAULTS = {
     webhook:  ENV["SLACK_WEBHOOK_URI"].freeze,
     channel:  '#feedback',

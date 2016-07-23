@@ -60,6 +60,4 @@ You can create as many custom reporters as you want and the use them by calling 
 The naming of a reporter matches the name if its 2 words or more, else its the `name` + `followup`
 Also you can put an object or class instead of a name and slack-reporter will combine the object class, or class with the followup to create the name.
 
-There is an `attr_accessor` for name and channel in case you want to change them for an existing reporter.
-
 The code is just 50 lines long so for any questions you might want to check it out!
